@@ -6,7 +6,7 @@ workers_dev = true
 
 [[kv_namespaces]]
 binding = "RELAY_KV"
-id = "REPLACE_WITH_NEW_RELAY_KV_NAMESPACE_ID"
+id = "368fb4fbddfa4df0bf0397799cc49d6e"
 
 [vars]
 FILE_TTL_SECONDS = "604800"
