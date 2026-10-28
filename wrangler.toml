@@ -1,6 +1,15 @@
-name = "museai-chat2"
-main = "worker/worker.js"
+# Merged Muses text and file relay for the existing museaichat2 Worker.
+name = "museaichat2"
+main = "worker.js"
 compatibility_date = "2026-10-28"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "RELAY_KV"
+id = "REPLACE_WITH_NEW_RELAY_KV_NAMESPACE_ID"
+
+[vars]
+FILE_TTL_SECONDS = "604800"
 
 [observability]
 enabled = true
