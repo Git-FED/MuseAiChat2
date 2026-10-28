@@ -1,0 +1,6 @@
+name = "museai-chat2"
+main = "worker/worker.js"
+compatibility_date = "2026-10-28"
+
+[observability]
+enabled = true
